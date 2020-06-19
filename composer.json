@@ -1,0 +1,26 @@
+{
+  "name": "mshumakov/alpha-contract",
+  "description": "The main set of conventions that are often used in different packages/projects.",
+  "type": "library",
+  "license": "GPL-3.0-only",
+  "keywords": ["php-library", "php", "contract", "interface"],
+  "authors": [
+    {
+      "name": "Maksim Shumakov",
+      "email": "ms.profile.dev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MSdev\\Helper\\AlphaContract\\": "src/",
+      "Test\\MSdev\\Helper\\AlphaContract\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  }
+}
+
